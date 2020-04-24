@@ -14,9 +14,6 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
   final introKey = GlobalKey<IntroductionScreenState>();
   final PagesViewModel viewPages = PagesViewModel();
 
-  // void onIntroEnd(context) {
-  //   Navigator.pushNamed(context, '/intro');
-  // }
 
   @override
   Widget build(BuildContext context) {
