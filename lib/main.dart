@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: themeData,
-      initialRoute: '/',
+      initialRoute: '/enter_number',
       routes: routes,
     
     );

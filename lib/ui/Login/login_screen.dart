@@ -17,7 +17,7 @@ class _LoginState extends State<Login> {
     return Scaffold(
       appBar: customAppBar(
         label: "Sign Up",
-        routeName: "/signup",
+        routeName: "/enter_number",
       ),
       body: SafeArea(
         child: ListView(
