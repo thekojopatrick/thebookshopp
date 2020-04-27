@@ -12,7 +12,6 @@ class MyApp extends StatelessWidget {
       theme: themeData,
       initialRoute: '/',
       routes: routes,
-    
     );
   }
 }
