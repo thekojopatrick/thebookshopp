@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:introduction_screen/introduction_screen.dart';
+import 'package:the_bookshop_app/components/custom_button.dart';
 import 'package:the_bookshop_app/models/pages_view_model.dart';
-import 'package:the_bookshop_app/utlis/constants.dart';
 
 class OnboardingScreen extends StatefulWidget {
   OnboardingScreen({Key key}) : super(key: key);
@@ -37,6 +37,4 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
   }
 }
 
-Widget smallButton(String label) {
-  return Text(label, style: kSmallButtonStyle);
-}
+
