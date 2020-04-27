@@ -15,7 +15,7 @@ class _GettingStartedState extends State<GettingStarted> {
     return Scaffold(
       body: SafeArea(
         top: false,
-              child: Container(
+        child: Container(
           padding: EdgeInsets.zero,
           margin: EdgeInsets.zero,
           decoration: BoxDecoration(
@@ -54,7 +54,10 @@ class _GettingStartedState extends State<GettingStarted> {
               ),
               Column(
                 children: <Widget>[
-                  CustomButton(label: 'Create Account',routeName: '/signup',),
+                  CustomButton(
+                    label: 'Create Account',
+                    routeName: '/signup',
+                  ),
                   SizedBox(
                     height: 15.0,
                   ),
@@ -62,7 +65,6 @@ class _GettingStartedState extends State<GettingStarted> {
                     label: 'Login',
                     color: kSecondaryPurpleColor,
                     routeName: '/login',
-                   
                   ),
                   SizedBox(
                     height: 32.0,

@@ -23,15 +23,15 @@ class _LoginState extends State<Login> {
         child: ListView(
           children: <Widget>[
             CustomInfoField(
-                title: "Welcome Back",
-                body: "Signing up or login to see \n our top picks for you.",
-              ),
+              title: "Welcome Back",
+              body: "Signing up or login to see \n our top picks for you.",
+            ),
             CustomTextField(label: "Email Address"),
             CustomTextField(label: "Password"),
             SizedBox(height: 20),
             CustomButton(
               label: "Login",
-              routeName: "\home",
+              routeName: "/home",
             ),
             SizedBox(height: 20),
             Center(

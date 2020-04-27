@@ -14,7 +14,6 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
   final introKey = GlobalKey<IntroductionScreenState>();
   final PagesViewModel viewPages = PagesViewModel();
 
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -23,7 +22,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
       showSkipButton: true,
       showNextButton: true,
       next: smallButton("Next"),
-      skip: smallButton("Skip") ,
+      skip: smallButton("Skip"),
       done: smallButton(""),
       dotsDecorator: DotsDecorator(
           size: const Size.square(10.0),
@@ -36,5 +35,3 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
     ));
   }
 }
-
-

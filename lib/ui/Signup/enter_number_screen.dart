@@ -36,7 +36,7 @@ class _EnterNumberState extends State<EnterNumber> {
                             title: "Create An Account",
                             color: Colors.white,
                             body:
-                                 "       Signing up or login to see \n         our top picks for you.")
+                                "       Signing up or login to see \n         our top picks for you.")
                       ]),
                 ),
               ),
@@ -79,6 +79,3 @@ class _EnterNumberState extends State<EnterNumber> {
     );
   }
 }
-
-
-
