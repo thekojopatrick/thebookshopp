@@ -1,5 +1,6 @@
 import 'package:flutter/widgets.dart';
 import 'package:the_bookshop_app/ui/Getting-started/intro_screen.dart';
+import 'package:the_bookshop_app/ui/Home-Screens/home_screen.dart';
 import 'package:the_bookshop_app/ui/Login/forgotten_password.dart';
 import 'package:the_bookshop_app/ui/Login/login_screen.dart';
 import 'package:the_bookshop_app/ui/Onboarding/onboarding_screen.dart';
@@ -15,4 +16,5 @@ final Map<String, WidgetBuilder> routes = {
   '/login': (BuildContext context) => Login(),
   '/forgotten_password': (BuildContext context) => ForgottenPassword(),
   '/enter_number': (BuildContext context) => EnterNumber(),
+  '/homepage' :(BuildContext context) => HomeScreen(),
 };

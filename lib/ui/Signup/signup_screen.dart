@@ -31,7 +31,7 @@ class _SignupState extends State<Signup> {
               SizedBox(height: 20),
               CustomButton(
                 label: "Sign Up",
-                routeName: "/home",
+                routeName: "/homepage",
               ),
               SizedBox(height: 14),
               CustomFlatButtonV2(
