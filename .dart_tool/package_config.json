@@ -185,10 +185,10 @@
       "name": "the_bookshop_app",
       "rootUri": "../",
       "packageUri": "lib/",
-      "languageVersion": "2.1"
+      "languageVersion": "2.2"
     }
   ],
-  "generated": "2020-04-27T04:29:31.500492Z",
+  "generated": "2020-04-27T04:31:20.366719Z",
   "generator": "pub",
   "generatorVersion": "2.7.2"
 }
