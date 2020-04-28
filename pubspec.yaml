@@ -22,6 +22,9 @@ dependencies:
 
   cupertino_icons: ^0.1.2
   introduction_screen: ^1.0.7
+  flutter_feather_icons: ^1.0.3
+
+
 
 dev_dependencies:
   flutter_test:
