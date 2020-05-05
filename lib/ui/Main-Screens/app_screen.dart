@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_feather_icons/flutter_feather_icons.dart';
 
 import 'package:the_bookshop_app/components/custom_bottom_nav.dart';
-import 'package:the_bookshop_app/ui/Home-Screens/account_screen.dart';
-import 'package:the_bookshop_app/ui/Home-Screens/books_screen.dart';
-import 'package:the_bookshop_app/ui/Home-Screens/home_screen.dart';
-import 'package:the_bookshop_app/ui/Home-Screens/library_screen.dart';
-import 'package:the_bookshop_app/ui/Home-Screens/stationary_screen.dart';
+import 'package:the_bookshop_app/ui/Main-Screens/account_screen.dart';
+import 'package:the_bookshop_app/ui/Main-Screens/books_screen.dart';
+import 'package:the_bookshop_app/ui/Main-Screens/home_screen.dart';
+import 'package:the_bookshop_app/ui/Main-Screens/library_screen.dart';
+import 'package:the_bookshop_app/ui/Main-Screens/stationary_screen.dart';
 
 class AppScreen extends StatefulWidget {
   AppScreen({Key key}) : super(key: key);
