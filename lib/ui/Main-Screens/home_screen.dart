@@ -70,6 +70,11 @@ class PopularItemSection extends StatelessWidget {
                       scrollDirection: Axis.horizontal,
                       children: <Widget>[
                         ProductCard(
+                          bookImage: 'Book.png',
+                          bookName: 'Simon Bright',
+                          bookSeller: 'Kingdom Boooks',
+                        ),
+                        ProductCard(
                           bookImage: 'BookCover2.jpg',
                           bookName: 'Simon Bright',
                           bookSeller: 'Kingdom Boooks',
@@ -84,11 +89,7 @@ class PopularItemSection extends StatelessWidget {
                           bookName: 'Where the cra',
                           bookSeller: 'Kingdom Boooks',
                         ),
-                         ProductCard(
-                          bookImage: 'Book.png',
-                          bookName: 'Simon Bright',
-                          bookSeller: 'Kingdom Boooks',
-                        ),
+                      
                       ])))
         ],
       ),
