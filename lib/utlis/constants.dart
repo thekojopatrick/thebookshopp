@@ -6,6 +6,7 @@ const kPrimaryPurpleColor = Color(0xff6979F8);
 const kSecondaryPurpleColor = Color(0xff3443BF);
 const kDarkGreyColor = Color(0xff999999);
 const kSecondaryBlueColor = Color(0xff4EAEFF);
+const kPrimaryLightRedColor = Color(0xffFF647C);
 
 const kHeading1 = TextStyle(
   fontSize: 34.0,
