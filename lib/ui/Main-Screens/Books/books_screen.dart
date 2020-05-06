@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:the_bookshop_app/utlis/constants.dart';
 
 import 'components/book_card.dart';
 
